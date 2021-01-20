@@ -26,8 +26,10 @@
 				</tr>
 				<tr>
 				
-					<td><a href="/phonebook3/phone/modifyForm?id=${personVo.personId }">수정 </a></td>
-					<td><a href="/phonebook3/phone/delete?id=${personVo.personId }">삭제</a></td>
+					<td><a href="/phonebook3/phone/modifyForm?personId=${personVo.personId }">수정 </a></td>
+					<td><a href="/phonebook3/phone/delete/${personVo.personId }">삭제</a></td>
+					
+					<%-- <td><a href="/phonebook3/phone/delete?personId=${personVo.personId }">삭제</a></td>		delete2번 --%>
 					
 				</tr>
 			</table>
